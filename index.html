@@ -1,0 +1,128 @@
+<!DOCTYPE html> <!--https://www.todamateria.com.br/perguntas-e-respostas-de-conhecimentos-gerais/-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <div id="welcome">
+            <h1>Bem vind@ Padawan</h1>
+            <h3 id="subtitle">Está preparado para prosseguir???</h3>
+            <br>
+            <div id="enterName">
+                <input type="text" id="playerName" placeholder="Nome...">
+                <span><button id="sendName">Ok!</button></span>
+            </div>
+            <br>
+            <div id="buttons">
+                <button id="playNow">Jogar agora!</button>
+                <button id="out">Não estou preparado :(</button>
+            </div>
+            <p id="cronometro">0.00</p>
+        </div>
+
+        <div id="first_question">
+            <div>
+                <h3>Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?</h3> 
+                <div id="buttonFirst">
+                    <button id="btnF1">Tem entre 2 a 4 litros. São retirados 450 mililitros</button>
+                    <button id="btnF2">Tem entre 4 a 6 litros. São retirados 450 mililitros</button>
+                    <button id="btnF3">Tem 10 litros. São retirados 2 litros</button><br>
+                    <button id="btnF4">Tem 7 litros. São retirados 1,5 litros</button>
+                    <button id="btnF5">Tem 0,5 litros. São retirados 0,5 litros</button>
+                </div>
+                <div>
+                    <button id="next">Avançar</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="second_question">
+            <div>
+                <h3>De quem é a famosa frase "Penso, logo existo"?</h3>
+                <div id="buttonSecond">
+                    <button id="btnS1">Platão</button>
+                    <button id="btnS2">Galileu Galilei</button>
+                    <button id="btnS3">Descartes</button><br>
+                    <button id="btnS4">Sócrates</button>
+                    <button id="btnS5">Francis Bacon</button>
+                </div>
+                <div>
+                    <button id="next2">Avançar</button>
+                </div>
+            </div>
+           
+        </div>
+
+        <div id="tird_question">
+            <div>
+                <h3>Atualmente, quantos elementos químicos a tabela periódica possui?</h3>
+                <div id="buttonTird">
+                    <button id="btnT1">113</button>
+                    <button id="btnT2">109</button>
+                    <button id="btnT3">108</button>
+                    <button id="btnT4">118</button>
+                    <button id="btnT5">92</button>
+                </div>
+                <div>
+                    <button id="next3">Avançar</button>
+                </div>
+            </div> 
+            
+        </div>
+
+        <div id="fourth_question">
+            <div>
+                <h3>Quem pintou "Guernica"?</h3>
+                <div id="buttonFourth">
+                    <button id="btnFo1">Paul Cézane</button>
+                    <button id="btnFo2">Pablo Picasso</button>
+                    <button id="btnFo3">Diego Rivera</button><br>
+                    <button id="btnFo4">Tarsila do Amaral</button>
+                    <button id="btnFo5">Salvador Dalí</button>
+                </div>
+                <div>
+                    <button id="next4">Avançar</button>
+                </div>
+            </div>
+           
+        </div>
+
+        <div id="fifth_question">
+            <div>
+                <h3>Qual destes países é transcontinental?</h3>
+                <div id="buttonFifth">
+                    <button id="btnFi1">Rússia</button>
+                    <button id="btnFi2">Filipinas</button>
+                    <button id="btnFi3">Marrocos</button><br>
+                    <button id="btnFi4">Groenlândia</button>
+                    <button id="btnFi5">Tanzânia</button>
+                </div>
+                <div>
+                    <button id="next5">Avançar</button>
+                </div>
+            </div>
+           
+        </div>
+
+        <div>
+            <div id="modal">
+                <h1 id="modName"></h1>
+                <h2 id="modPoint"></h2>
+                <h3 id="elapse"></h3>
+                <div id="modButtons">
+                    <button id="revanche">Jogar novamente</button> 
+                    <button id="rank">Ranking</button>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

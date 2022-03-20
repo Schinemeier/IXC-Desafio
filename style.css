@@ -1,0 +1,383 @@
+body{
+    margin-top: -5em;
+}
+
+#welcome, #first_question, #second_question, #tird_question, #fourth_question, #fifth_question{
+    background-image: linear-gradient( 160deg, rgba(132, 1, 255,1), /*transparent,*/ rgb(221, 16, 221), rgba(255, 157, 9, 0.932) );
+    /*background: rgb(152, 192, 58);*/
+    color: rgb(255, 217, 4);
+
+}
+
+#welcome h1{
+    padding-top: 8%;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+#welcome h3{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#enterName{
+   margin-top: 3%;
+   text-align: center;
+}
+
+#enterName #playerName{
+    width: 600px;
+    height: 35px;
+    font-size: 30px;
+    padding-left: 10px;
+    border: 2px solid rgb(5, 93, 255);
+    border-radius: 15px;
+}
+
+#enterName button{
+    background: rgba(5, 93, 255, 0.8);
+    border: none;/*2px solid rgba(5, 93, 255, 0.8);*/
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+    border-radius: 0 15px 15px 0;
+    font-weight: bold;
+    margin-left: -63px;
+}
+
+#enterName button:hover{
+    color: rgb(5, 93, 255);
+    background: rgb(255, 153, 0);
+    border:none;
+}
+
+#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 730px;
+    /*text-align: center;*/
+}
+
+#welcome #buttons{
+    margin-left: 20%;
+    margin-top: 7%;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+}
+
+#welcome #playNow{
+    margin-right: 20%;
+    color: rgb(255, 217, 0);
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background: rgba(0, 159, 207,0.6);
+    border: 2px solid rgb(64, 0, 148);
+    border-radius: 15px;
+    width: 20em;
+    height: 5em;
+}
+
+#welcome #out{
+    margin-left: 5%;
+    color: rgb(255, 217, 0);
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background: rgba(0, 159, 207,0.6);
+    border: 2px solid rgb(64, 0, 148);
+    border-radius: 15px;
+    width: 20em;
+    height: 5em;
+}
+
+#welcome #playNow:hover{
+    background: rgb(255, 217, 0);
+    color: rgba(0, 159, 207,0.6);
+}
+
+#welcome #out:hover{
+    background: rgb(255, 217, 0);
+    color: rgba(0, 159, 207,0.6);
+}
+
+#first_question{
+    padding-top: 8%;
+    height: 730px;
+}
+
+#first_question h3{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#buttonFirst{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#buttonFirst button{
+    width: 390px;
+    padding: 10px;
+    margin: 15px;    
+    background: rgba(5, 93, 255, 0.8);
+    border: 2px solid rgba(5, 93, 255, 0.8);
+    color: rgb(255, 153, 0);
+    font-size: 28px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#buttonFirst button:hover{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+button#next{
+    width: 150px;
+    font-size: 28px;
+    margin-top: 5%;
+    margin-left: 85%;
+    background: rgb(5, 93, 255);
+    color: rgb(255, 153, 0);
+    border-radius: 15px;
+}
+
+button:hover#next{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+#second_question{
+    padding-top: 8%;
+    height: 730px;
+}
+
+#second_question h3{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#buttonSecond{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#buttonSecond button{
+    width: 390px;
+    padding: 10px;
+    margin: 15px;    
+    background: rgba(5, 93, 255, 0.8);
+    border: 2px solid rgba(5, 93, 255, 0.8);
+    color: rgb(255, 153, 0);
+    font-size: 28px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#buttonSecond button:hover{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+button#next2{
+    width: 150px;
+    font-size: 28px;
+    margin-top: 5%;
+    margin-left: 85%;
+    background: rgb(5, 93, 255);
+    color: rgb(255, 153, 0);
+    border-radius: 15px;
+}
+
+button:hover#next2{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+    
+#tird_question{
+    padding-top: 8%;
+    height: 730px;
+}
+
+#tird_question h3{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#buttonTird{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#buttonTird button{
+    width: 390px;
+    padding: 10px;
+    margin: 15px;    
+    background: rgba(5, 93, 255, 0.8);
+    border: 2px solid rgba(5, 93, 255, 0.8);
+    color: rgb(255, 153, 0);
+    font-size: 28px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#buttonTird button:hover{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+button#next3{
+    width: 150px;
+    font-size: 28px;
+    margin-top: 5%;
+    margin-left: 85%;
+    background: rgb(5, 93, 255);
+    color: rgb(255, 153, 0);
+    border-radius: 15px;
+}
+
+button:hover#next3{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+/*//////////////*/
+   
+#fourth_question{
+    padding-top: 8%;
+    height: 730px;
+}
+
+#fourth_question h3{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#buttonFourth{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#buttonFourth button{
+    width: 390px;
+    padding: 10px;
+    margin: 15px;    
+    background: rgba(5, 93, 255, 0.8);
+    border: 2px solid rgba(5, 93, 255, 0.8);
+    color: rgb(255, 153, 0);
+    font-size: 28px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#buttonFourth button:hover{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+button#next4{
+    width: 150px;
+    font-size: 28px;
+    margin-top: 5%;
+    margin-left: 85%;
+    background: rgb(5, 93, 255);
+    color: rgb(255, 153, 0);
+    border-radius: 15px;
+}
+
+button:hover#next4{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+/* ///////////////////////////////// /*/
+  
+#fifth_question{
+    padding-top: 8%;
+    height: 730px;
+}
+
+#fifth_question h3{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#buttonfifh{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#buttonFifth button{
+    width: 390px;
+    padding: 10px;
+    margin: 15px;    
+    background: rgba(5, 93, 255, 0.8);
+    border: 2px solid rgba(5, 93, 255, 0.8);
+    color: rgb(255, 153, 0);
+    font-size: 28px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#buttonFifth button:hover{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+button#next5{
+    width: 150px;
+    font-size: 28px;
+    margin-top: 5%;
+    margin-left: 85%;
+    background: rgb(5, 93, 255);
+    color: rgb(255, 153, 0);
+    border-radius: 15px;
+}
+
+button:hover#next5{
+    color: rgba(5, 93, 255, 0.8);
+    background: rgb(255, 153, 0);
+}
+
+#modal{
+    padding-top: 10%;
+    width: 100%;
+    height: 780px;
+    background-image: linear-gradient(rgb(46, 46, 46), rgb(129, 129, 129), rgb(0, 0, 0));
+}
+
+#modName, #modPoint, #elapse{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#modButtons{
+    text-align: center;
+}
+
+#revanche,#rank{
+    margin: 45px;
+    color: rgb(255, 217, 0);
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background: rgba(0, 159, 207,0.6);
+    border: 2px solid rgb(64, 0, 148);
+    border-radius: 15px;
+    width: 20em;
+    height: 5em;
+}
+#revanche:hover, #rank:hover{
+    background: rgb(255, 217, 0);
+    color: rgba(0, 159, 207,0.6);
+}
